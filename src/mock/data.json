@@ -1,0 +1,59 @@
+{
+  "acg": {
+      "name": "abc",
+      "imgurl": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1598511215&di=4bd6cbeea2aca7364c2d5e8be312707d&src=http://b-ssl.duitang.com/uploads/item/201406/28/20140628083111_kE25v.jpeg",
+      "anime": [
+        { "middleURL": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3543716261,1082623877&fm=26&gp=0.jpg" },
+        { "middleURL": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3642169968,3447316834&fm=26&gp=0.jpg" }
+      ],
+      "swiper": [
+        {"images": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598525939350&di=60e916d1bbb33803b1168f902769fd97&imgtype=0&src=http%3A%2F%2Fattachments.woniu.com%2Fclub%2Fmmbbs%2Fforum%2F201406%2F30%2F114105cpjf4gfd63qoxgd6.jpg"},
+        {"images": "https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1017486331,1394773415&fm=26&gp=0.jpg"},
+        {"images": "https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2611777556,951246131&fm=26&gp=0.jpg"},
+        {"images": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3605371121,2359287552&fm=26&gp=0.jpg"},
+        {"images": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=231886735,1842062387&fm=26&gp=0.jpg"}
+      ],
+      "items": [
+        { "picUrl": "http://www.feizl.com/upload2007/allimg/170719/2131553002-23.jpg" },
+        { "picUrl": "http://i1.itc.cn/20120116/6c6_a429ce72_2b27_f53d_2d63_b5f58148ef81_1.jpg" },
+        { "picUrl": "http://i2.tagstat.com/p1/p/f9RTY7DOcyAJQiVKqJGgP96o9gbEvOMcQcgpHDWZQHTmewiPEky2u33YPH2rrXK5.jpg" },
+        { "picUrl": "http://5b0988e595225.cdn.sohucs.com/images/20170803/7ae12d62a0c645d7b1c1466e6016119b.jpeg"},
+        { "picUrl": "https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=431b8faa2ca446237e9fad64a8125e36/f636afc379310a559d202b24bb4543a9832610dd.jpg" },
+        { "picUrl": "http://pic34.photophoto.cn/20150128/0005018359372406_b.jpg" },
+        { "picUrl": "http://att.kidblog.cn/xm/201410/4/2639610_1412434364Hlth.jpeg" },
+        { "picUrl": "https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/9f510fb30f2442a70462c353d143ad4bd01302d3.jpg" },
+        { "picUrl": "http://cdn.lizhi.fm/radio_cover/2014/05/18/11662581851278466.jpg" },
+        { "picUrl": "http://img2.100bt.com/upload/ttq/20130423/1366713174831.jpg" },
+        { "picUrl": "http://p15.qhimg.com/bdml/1280_1024_85/d/_open360/dm0926/2.jpg" },
+        { "picUrl": "https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=809e81efcbcec3fd8b6baf73e6b8f807/8435e5dde71190ef4f4aeefcc61b9d16fdfa605b.jpg"},
+        { "picUrl": "http://img.mp.sohu.com/upload/20170602/be1602e969f4448f8c76dbf8ea6e3a65_th.png" },
+        { "picUrl": "http://ku.90sjimg.com/element_origin_min_pic/02/22/96/9357720e9a7829f.jpg"},
+        { "picUrl": "http://p0.itc.cn/images01/20200818/513114b4414149deae2bd6dcf3708b55.jpeg"},
+        { "picUrl": "http://p0.itc.cn/images01/20200825/e97fddd427fb4d568fe49715b33d66cd.jpeg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200825/7d7edfc4bbf742c0876e576b673a0431.jpeg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200825/fcf10829220445feae5e592ad049063b.jpeg" },
+        { "picUrl": "http://p3.itc.cn/q_70/images03/20200825/d023ae92706b47dca5c267750dd3e4ad.jpeg" },
+        { "picUrl": "http://p0.itc.cn/images01/20200824/92bc8f5b3f9942fc98bb6cb220935a1e.jpeg" },
+        { "picUrl": "http://p4.itc.cn/images01/20200825/7f2f6f0c8c854cc084387b74dcbd2a6d.jpeg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200825/dcec5bcc9b36438d932837143891b666.jpeg" },
+        { "picUrl": "http://p4.itc.cn/images01/20200825/d9a045f63e3c46fda6ca43546df66f91.jpeg" },
+        { "picUrl": "http://p5.itc.cn/images01/20200826/4fea1134c5df44aba8aade92c7fc9e89.jpeg" },
+        { "picUrl": "http://p6.itc.cn/images01/20200825/2664e38b245b4903946c279f192a9aec.jpeg" },
+        { "picUrl": "http://p9.itc.cn/images01/20200825/08c1d52714144679a6ad4e38d0ef8ced.jpeg" },
+        { "picUrl": "http://p3.itc.cn/images01/20200824/be6eb89469094b488c82c6b82e72be38.jpeg" },
+        { "picUrl": "http://sh.image.uc.cn/s/y9g/g/2017/perm/fourm/1708211135ca7a66f630d13825b56a03ec4b2467e0x400x299x13.jpeg" },
+        { "picUrl": "http://p4.itc.cn/images01/20200824/09127e5170584764a00905c039f6fe47.jpeg" },
+        { "picUrl": "http://p3.itc.cn/images01/20200825/df84adf314194669b1274df4de5d9d43.jpeg" },
+        { "picUrl": "http://p9.itc.cn/images01/20200825/12eb1fef042b436ea4219a6f66fae86e.jpeg" },
+        { "picUrl": "http://p6.itc.cn/images01/20200825/3882cb94f5974ec2b243e2768c68c4c3.jpeg" },
+        { "picUrl": "http://p3.itc.cn/images01/20200826/0b3b4e6ea16a473b88acd5024c8fb96c.jpeg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200824/652c52691df140709657a06b3814a01f.jpeg" },
+        { "picUrl": "https://upload.chinaz.com/picmap/202006051113564545_46.jpg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200827/de32ce083d1745d589278d7c3fd94c54.jpeg" },
+        { "picUrl": "http://p7.itc.cn/images01/20200825/e0d28102a3a74998b28b5ab4af009642.jpeg" },
+        { "picUrl": "http://p1.itc.cn/images01/20200825/3f8cfd79b3404f08af8d4fb5195b34f9.jpeg" },
+        { "picUrl": "http://p3.itc.cn/images01/20200824/d4e63333591d4455b1dfbb7975670b20.jpeg" },
+        { "picUrl": "http://p3.itc.cn/images01/20200825/cf81a9c7052544c38ea45fadd0ccb8e9.jpeg" }
+      ]
+  }
+}
