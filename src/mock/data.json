@@ -7,11 +7,21 @@
         { "middleURL": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3642169968,3447316834&fm=26&gp=0.jpg" }
       ],
       "swiper": [
-        {"images": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598525939350&di=60e916d1bbb33803b1168f902769fd97&imgtype=0&src=http%3A%2F%2Fattachments.woniu.com%2Fclub%2Fmmbbs%2Fforum%2F201406%2F30%2F114105cpjf4gfd63qoxgd6.jpg"},
-        {"images": "https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1017486331,1394773415&fm=26&gp=0.jpg"},
-        {"images": "https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2611777556,951246131&fm=26&gp=0.jpg"},
-        {"images": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3605371121,2359287552&fm=26&gp=0.jpg"},
-        {"images": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=231886735,1842062387&fm=26&gp=0.jpg"}
+        {
+          "text": "动漫",
+          "images": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598525939350&di=60e916d1bbb33803b1168f902769fd97&imgtype=0&src=http%3A%2F%2Fattachments.woniu.com%2Fclub%2Fmmbbs%2Fforum%2F201406%2F30%2F114105cpjf4gfd63qoxgd6.jpg"},
+        {
+          "text": "古风",
+          "images": "https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1017486331,1394773415&fm=26&gp=0.jpg"},
+        {
+          "text": "真人",
+          "images": "https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2611777556,951246131&fm=26&gp=0.jpg"},
+        {
+          "text": "动物",
+          "images": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3605371121,2359287552&fm=26&gp=0.jpg"},
+        {
+          "text": "风景",
+          "images": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=231886735,1842062387&fm=26&gp=0.jpg"}
       ],
       "items": [
         { "picUrl": "http://www.feizl.com/upload2007/allimg/170719/2131553002-23.jpg" },

@@ -1,37 +1,66 @@
 <template>
   <div class="category">
-    <nav-bar class="category-nav"><div slot="center">热门图片</div></nav-bar>
+    <home-web></home-web>
+    <nav-bar class="category-nav">
+      <div slot="center">热门图片</div>
+    </nav-bar>
+
+    <category-from class="tab-control"></category-from>
+
     <scroll class="centent">
-    <div v-for="(item, index) in acg.anime" :key="index">
-      <img class="category-img" :src="item.middleURL" alt="">
-    </div>
+      <category-img></category-img>
     </scroll>
   </div>
 </template>
 
 <script>
-import NavBar from '../../components/common/navbar/NavBar'
-import {mapState} from 'vuex'
-import Scroll from '../../components/common/scroll/Scroll'
+import NavBar from "../../components/common/navbar/NavBar";
+import Scroll from "../../components/common/scroll/Scroll";
+
+import HomeWeb from "../Home/HomeWeb";
+import CategoryFrom from "./CategoryFrom"
+import CategoryImg from './CategoryImg'
+
 export default {
-  name: 'Category',
-  mounted() {
-    this.$store.dispatch('getShopAcg')
-  },
-  computed: {
-    ...mapState(['acg'])
+  name: "Category",
+  data() {
+    return {}
   },
   components: {
     NavBar,
-    Scroll
-  }
-}
+    Scroll,
+    HomeWeb,
+    CategoryFrom,
+    CategoryImg
+  },
+
+};
 </script>
 
 <style scoped>
 .category {}
-.centent { overflow: hidden; position: absolute; top: 43px; bottom: 43px; left: 0; right: 0; }
-.category-nav { background-color:lawngreen;color: #ffffff; }
-.category-img { width: 100%; }
-
+.centent {
+  overflow: hidden;
+  position: absolute;
+  top: 76px;
+  bottom: 43px;
+  left: 0;
+  right: 0;
+}
+.category-nav {
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  color: red;
+  background-color: transparent;
+  font-weight: 700;
+}
+.tab-control {
+    position: absolute;
+    top: 6%;
+    z-index: 1;
+    width: 100%;
+    background-color:transparent;
+}
 </style>

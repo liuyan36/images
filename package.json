@@ -13,6 +13,8 @@
     "axios": "^0.20.0",
     "better-scroll": "^1.15.2",
     "express": "^4.17.1",
+    "html2canvas": "^1.0.0-rc.7",
+    "mint-ui": "^2.2.13",
     "mockjs": "^1.1.0",
     "save-dev": "0.0.1-security",
     "vue": "^2.5.2",

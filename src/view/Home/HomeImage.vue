@@ -13,14 +13,13 @@ export default {
   name: 'HomeImage',
   data() {
     return {
-      baseURL: ''
     }
   },
   mounted() {
     this.$store.dispatch('getShopAcg')
   },
   computed: {
-    ...mapState(['acg'])
+    ...mapState(['acg']),
   },
 }
 </script>

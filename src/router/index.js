@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../view/Home/Home.vue'
 import Category from '../view/Category/Category.vue'
 import Profile from '../view/Profile/profile.vue'
+import abc from '../view/abc/abc.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ export default new VueRouter({
       path: '/profile',
       name: 'Profile',
       component: Profile
+    },
+    {
+      path: '/abc',
+      name: 'abc',
+      component: abc
     }
   ]
 })
