@@ -1,7 +1,7 @@
 <template>
   <div class="home-image">
-    <div v-for="(item, index) in acg.items" :key="index">
-      <img :src="item.picUrl" alt="">
+    <div v-for="(item, index) in imgs.image" :key="index">
+      <img :src="item.图片" alt="">
     </div>
   </div>
 </template>
@@ -16,10 +16,10 @@ export default {
     }
   },
   mounted() {
-    this.$store.dispatch('getShopAcg')
+    this.$store.dispatch('getShopImgs')
   },
   computed: {
-    ...mapState(['acg']),
+    ...mapState(['imgs']),
   },
 }
 </script>

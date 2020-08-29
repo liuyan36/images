@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../view/Home/Home.vue'
-import Category from '../view/Category/Category.vue'
-import Profile from '../view/Profile/profile.vue'
-import abc from '../view/abc/abc.vue'
+
+const Home = () => import('../view/Home/Home.vue')
+const Category = () => import('../view/Category/Category.vue')
+const Profile = () =>  import('../view/Profile/profile.vue')
+const CategoryScenery = () => import('../view/Category/CategoryScenery/CategoryScenery.vue')
+const CategoryAnime = () => import('../view/Category/CategoryAnime/CategoryAnime.vue')
+const CategoryReality = () => import('../view/Category/CategoryReality/CategoryReality.vue')
+
 
 Vue.use(VueRouter)
 
@@ -27,18 +31,30 @@ export default new VueRouter({
     },
     {
       path: '/category',
-      name: 'Category',
-      component: Category
+      component: Category,
+      children: [
+        {
+          path: '/category/scenery',
+          component: CategoryScenery
+        },
+        {
+          path: '/category/anime',
+          component: CategoryAnime
+        },
+        {
+          path: '/category/reality',
+          component: CategoryReality
+        },
+        {
+          path: '',
+          redirect: '/category/scenery'
+        }
+      ]
     },
     {
       path: '/profile',
       name: 'Profile',
       component: Profile
-    },
-    {
-      path: '/abc',
-      name: 'abc',
-      component: abc
     }
   ]
 })

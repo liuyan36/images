@@ -14,10 +14,10 @@
 import NavBar from '../../components/common/navbar/NavBar'
 import Scroll from '../../components/common/scroll/Scroll'
 // import TabControl from '../../components/content/tabControl/tabControl'
-import HomeSwiper from './HomeSwiper'
-import HomeList from './HomeList'
-import HomeImage from './HomeImage'
-import HomeWeb from './HomeWeb'
+import HomeSwiper from './chlieran/HomeSwiper'
+import HomeList from './chlieran/HomeList'
+import HomeImage from './chlieran/HomeImage'
+import HomeWeb from './chlieran/HomeWeb'
 
 
 export default {

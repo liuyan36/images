@@ -18,11 +18,11 @@ export default {
   data() {
     return {
       imgs: [
-        { title: '真人头像', image: require('../../assets/img/image1/真人.jpg')},
-        { title: '动物头像', image: require('../../assets/img/image1/动物.jpg')},
-        { title: '古风头像', image: require('../../assets/img/image1/古风.jpg')},
-        { title: '动漫头像', image: require('../../assets/img/image1/动漫.jpg')},
-        { title: '风景头像', image: require('../../assets/img/image1/风景.jpg')}
+        { title: '真人头像', image: require('../../../assets/img/image1/真人.jpg')},
+        { title: '动物头像', image: require('../../../assets/img/image1/动物.jpg')},
+        { title: '古风头像', image: require('../../../assets/img/image1/古风.jpg')},
+        { title: '动漫头像', image: require('../../../assets/img/image1/动漫.jpg')},
+        { title: '风景头像', image: require('../../../assets/img/image1/风景.jpg')}
       ]
     }
   }

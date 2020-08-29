@@ -1,7 +1,7 @@
 <template>
   <div>
     <swiper>
-      <swiper-item v-for="(item, index) in acg.swiper" :key="index">
+      <swiper-item v-for="(item, index) in acg.anime" :key="index">
         <a><img :src="item.images" alt=""></a>
       </swiper-item>
     </swiper>
@@ -9,9 +9,8 @@
 </template>
 
 <script>
-import {Swiper, SwiperItem} from '../../components/common/swiper'
+import {Swiper, SwiperItem} from '../../../components/common/swiper'
 import {mapState} from 'vuex'
-
 
 export default {
   name: "HomeSwiper",
@@ -33,4 +32,7 @@ export default {
 </script>
 
 <style scoped>
+img {
+  height: 235px;
+}
 </style>

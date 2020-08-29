@@ -9,9 +9,11 @@
   </div>
 </template>
 <script>
+import { mapState } from 'vuex'
+
 import NavBar from "../../components/common/navbar/NavBar";
 import Scroll from "../../components/common/scroll/Scroll";
-import HomeWeb from "../Home/HomeWeb";
+import HomeWeb from "../Home/chlieran/HomeWeb";
 
 export default {
   name: "profile",
@@ -22,10 +24,26 @@ export default {
   },
   data() {
     return {};
+  },
+  mounted() {
+    this.$store.dispatch('getShopScenery')
+    this.$store.dispatch('getShopAnime')
+  },
+  computed: {
+    ...mapState(['scenery', 'anime'])
   }
 };
 </script>
 <style scoped>
+.category-nav {
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  color: red;
+  background-color: transparent;
+  font-weight: 700;
+}
 .centent {
   overflow: hidden;
   position: absolute;

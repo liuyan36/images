@@ -4,48 +4,46 @@
     <nav-bar class="category-nav">
       <div slot="center">热门图片</div>
     </nav-bar>
-
-    <category-from class="tab-control"></category-from>
-
-    <scroll class="centent">
-      <category-img></category-img>
-    </scroll>
+    <div class="tab">
+        <div class="tab-item">
+          <!-- 使用replace的方式进行路由切换 （路由懒加载） -->
+          <router-link to="/category/scenery" replace>风景</router-link>
+        </div>
+        <div class="tab-item">
+          <router-link to="/category/anime" replace>动画</router-link>
+        </div>
+        <div class="tab-item">
+          <router-link to="/category/reality" replace>热门</router-link>
+        </div>
+    </div>
+    <!-- 缓存路由组件对象 -->
+    <keep-alive>
+      <router-view />
+    </keep-alive>
   </div>
 </template>
 
 <script>
 import NavBar from "../../components/common/navbar/NavBar";
-import Scroll from "../../components/common/scroll/Scroll";
 
-import HomeWeb from "../Home/HomeWeb";
-import CategoryFrom from "./CategoryFrom"
-import CategoryImg from './CategoryImg'
-
+import HomeWeb from "../Home/chlieran/HomeWeb";
 export default {
   name: "Category",
   data() {
-    return {}
+    return {
+    }
   },
   components: {
     NavBar,
-    Scroll,
-    HomeWeb,
-    CategoryFrom,
-    CategoryImg
+    HomeWeb
   },
-
+  methods: {}
 };
 </script>
-
 <style scoped>
-.category {}
-.centent {
-  overflow: hidden;
-  position: absolute;
-  top: 76px;
-  bottom: 43px;
-  left: 0;
-  right: 0;
+.category {
+  width: 100%;
+  height: 100%;
 }
 .category-nav {
   color: #ffffff;
@@ -56,11 +54,37 @@ export default {
   background-color: transparent;
   font-weight: 700;
 }
-.tab-control {
-    position: absolute;
-    top: 6%;
-    z-index: 1;
-    width: 100%;
-    background-color:transparent;
+.tab {
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  position: absolute;
+  top: 42px;
+  width: 100%;
+}
+.tab-item {
+  float: left;
+  width: 33.33333%;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(77, 85, 93);
+}
+.tab-item a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.router-link-active {
+  color: #02a774;
+}
+.tab-item a ::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 1px;
+  width: 35px;
+  height: 2px;
+  transform: translateX(-50%);
+  background: #02a774;
 }
 </style>
